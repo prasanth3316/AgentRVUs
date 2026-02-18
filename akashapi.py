@@ -8,8 +8,8 @@ from langchain_core.prompts import PromptTemplate
 from langchain_core.tools import Tool
 
 # --- 1. CONFIGURATION ---
-AKASH_API_KEY = "akml-NSDnxHaUEDUafkHmpKcWBGUljRiKmgNT" 
-AKASH_BASE_URL = st.secrets["AKASH_API_KEY"]
+AKASH_API_KEY = st.secrets["AKASH_API_KEY"]
+AKASH_BASE_URL = "https://api.akashml.com/v1"
 MODEL_NAME = "meta-llama/Llama-3.3-70B-Instruct"
 
 YEAR_DATASETS = {
