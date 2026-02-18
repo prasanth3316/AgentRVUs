@@ -9,7 +9,7 @@ from langchain_core.tools import Tool
 
 # --- 1. CONFIGURATION ---
 AKASH_API_KEY = "akml-NSDnxHaUEDUafkHmpKcWBGUljRiKmgNT" 
-AKASH_BASE_URL = "https://api.akashml.com/v1"
+AKASH_BASE_URL = st.secrets["AKASH_API_KEY"]
 MODEL_NAME = "meta-llama/Llama-3.3-70B-Instruct"
 
 YEAR_DATASETS = {
